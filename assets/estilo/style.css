@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header .line {
+    background-color: #117050;
+    height: 10px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header_area {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.header_left img {
+    width: 74px;
+    height: 74px;
+}
+
+.header_search input {
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1pix solid #999999;
+    outline: 0;
+}
